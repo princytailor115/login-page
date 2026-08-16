@@ -1,10 +1,4 @@
-# 🔐 Login Page
-
-A simple, clean, and fully responsive login page built using **HTML** and **CSS**.
-
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-
+# 🔐 Login Page.
 ## ✨ Features
 - 🎨 Clean and modern UI design
 - 📱 Fully responsive — works on mobile, tablet & desktop
