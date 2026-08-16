@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Login | Welcome Back</title>
+
+  <!-- Google Fonts: Poppins for headings, Inter for body text -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Soft decorative background shapes (purely visual, non-interactive) -->
+  <div class="background-shapes" aria-hidden="true">
+    <span class="shape shape-one"></span>
+    <span class="shape shape-two"></span>
+  </div>
+
+  <main class="page-wrapper">
+    <section class="login-card" aria-labelledby="login-heading">
+
+      <div class="login-header">
+        <div class="logo-mark" aria-hidden="true">
+          <svg width="26" height="26" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 2L2 7L12 12L22 7L12 2Z" stroke="white" stroke-width="1.6" stroke-linejoin="round"/>
+            <path d="M2 17L12 22L22 17" stroke="white" stroke-width="1.6" stroke-linejoin="round"/>
+            <path d="M2 12L12 17L22 12" stroke="white" stroke-width="1.6" stroke-linejoin="round"/>
+          </svg>
+        </div>
+        <h1 id="login-heading">Welcome Back</h1>
+        <p class="subtitle">Login to your account</p>
+      </div>
+
+      <form class="login-form" action="#" method="post">
+
+        <div class="input-group">
+          <label for="email">Email Address</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="you@example.com"
+            autocomplete="email"
+            required
+          />
+        </div>
+
+        <div class="input-group">
+          <label for="password">Password</label>
+          <input
+            type="password"
+            id="password"
+            name="password"
+            placeholder="Enter your password"
+            autocomplete="current-password"
+            required
+          />
+        </div>
+
+        <div class="form-utility-row">
+          <label class="remember-me">
+            <input type="checkbox" id="remember" name="remember" />
+            <span>Remember me</span>
+          </label>
+          <a href="#" class="forgot-link">Forgot Password?</a>
+        </div>
+
+        <button type="submit" class="login-button">Log In</button>
+
+      </form>
+
+      <p class="signup-prompt">
+        Don't have an account? <a href="#">Sign up</a>
+      </p>
+
+    </section>
+  </main>
+
+</body>
+</html>
