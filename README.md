@@ -17,6 +17,3 @@
 ```
 2. Open `index.html` in your browser
 3. Enter credentials to see the login form in action
-
-## 📸 Preview
-*(Add a screenshot of your login page here)*
